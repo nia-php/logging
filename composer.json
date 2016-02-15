@@ -1,0 +1,23 @@
+{
+  "name" : "nia/logging",
+  "description" : "Component for a simple and hierarchical logging of messages.",
+  "require" : {
+    "php" : ">=7.0.0"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "logging", "log" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Logging\\" : "sources/",
+      "Test\\Nia\\Logging\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
